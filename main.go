@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"GoLang-Learning/importMePackage"
+)
 
 func main() {
-	fmt.Println("Hellloooooooo from go")
+	Hello()
+	Variables()
+	importMePackage.Wave()
 }
