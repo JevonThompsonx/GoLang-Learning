@@ -2,6 +2,7 @@ package main
 
 import (
 	"GoLang-Learning/importMePackage"
+	"fmt"
 )
 
 func main() {
@@ -11,9 +12,9 @@ func main() {
 	// eg:
 	Hello()
 	Variables()
-
 	// variables & functions from other packages,
 	// need to be explicitly imported (see top)
 	// and used via their package:
 	importMePackage.Wave()
+	fmt.Println(ExportMe)
 }
