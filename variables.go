@@ -19,4 +19,6 @@ func Variables() {
 	fmt.Println("this makes declaring variables as easy as name := value")
 	thirdNum := 89
 	fmt.Println("Third num", thirdNum)
+	fourthNum, anotherString := 892, "Hello i am string"
+	fmt.Println("These were initalied together: ", fourthNum, anotherString)
 }
