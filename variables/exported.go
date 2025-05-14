@@ -1,4 +1,4 @@
-package main
+package variables
 
 // for exporting:
 // - capitalized

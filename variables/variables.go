@@ -1,4 +1,4 @@
-package main
+package variables
 
 import "fmt"
 
@@ -21,4 +21,6 @@ func Variables() {
 	fmt.Println("Third num", thirdNum)
 	fourthNum, anotherString := 892, "Hello i am string"
 	fmt.Println("These were initalied together: ", fourthNum, anotherString)
+	var noValue int
+	fmt.Println("This was initialized with no value: ", noValue)
 }
