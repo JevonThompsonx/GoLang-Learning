@@ -4,6 +4,7 @@ import (
 	"GoLang-Learning/hello"
 	"GoLang-Learning/importMePackage"
 	"GoLang-Learning/loops"
+	"GoLang-Learning/review"
 	"GoLang-Learning/variables"
 	"fmt"
 )
@@ -22,4 +23,5 @@ func main() {
 	fmt.Println(variables.ExportMe)
 	variables.Constants()
 	loops.Loops()
+	review.Review()
 }
