@@ -8,4 +8,5 @@ func Review() {
 	fmt.Println("hola from review")
 	Day1()
 	Day2()
+	Day3()
 }
