@@ -18,13 +18,13 @@ func Day3() {
 	Println("Const is used to declare variables that don't change")
 	const conVar int = 800
 	fmt.Println(conVar)
+}
 
-	fmt.Println(`
+const DAY3NEWSTUFF = `
     Let's leave a note for what to review later: 
     - changing variable types
     - using specific type declarations: int8, float32, uint16 etc
     - using bcrypt to hash passwords 
     - for Loops
     - 
-    `)
-}
+    `

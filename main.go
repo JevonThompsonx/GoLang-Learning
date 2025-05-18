@@ -5,6 +5,8 @@ import (
 	"GoLang-Learning/importMePackage"
 	"GoLang-Learning/loops"
 	"GoLang-Learning/review"
+	specific "GoLang-Learning/specificTypes"
+	typechanged "GoLang-Learning/typeChanging"
 	"GoLang-Learning/variables"
 	"fmt"
 )
@@ -24,4 +26,7 @@ func main() {
 	variables.Constants()
 	loops.Loops()
 	review.Review()
+	specific.Specifictypes()
+	typechanged.NumConverts()
+	typechanged.StringConverts()
 }
