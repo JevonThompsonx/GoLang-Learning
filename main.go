@@ -25,8 +25,8 @@ func main() {
 	fmt.Println(variables.ExportMe)
 	variables.Constants()
 	loops.Loops()
-	review.Review()
 	specific.Specifictypes()
 	typechanged.NumConverts()
 	typechanged.StringConverts()
+	review.Review()
 }
