@@ -93,4 +93,29 @@ func Day4Loops() {
     `)
 
 	fmt.Println("Time for the main event in this review. For loooooooooops")
+
+	fmt.Println(`
+    For is used as the go keyword for loops
+
+    ## For loops
+
+    for {
+    fmt.PrintLn("This is an example of a forever loop")
+    }
+
+
+    forx :=25
+
+    for forx > 100 {
+    fmt.Println("x is ", forx)
+    forx += 5
+    }
+    `)
+
+	forx := 25
+
+	for forx > 100 {
+		fmt.Println("x is ", forx)
+		forx += 5
+	}
 }
