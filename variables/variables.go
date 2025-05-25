@@ -4,13 +4,12 @@ import "fmt"
 
 func Variables() {
 	fmt.Println("1 + 4 = ", +1+4)
-	fmt.Println(true && true)
 	fmt.Println(false && true)
 	fmt.Println(!true)
 	fmt.Println("7/3=", 7/3)
 	// comment like this
 	fmt.Println("Variables are declared using var")
-	var firstNum, secondNum int = 22, 24
+	var firstNum, secondNum int8 = 22, 24
 	fmt.Println("first number", firstNum, "and second num", secondNum)
 	greet := "Hello there buddy"
 	fmt.Println(greet)

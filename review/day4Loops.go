@@ -1,6 +1,8 @@
 package review
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func Day4Loops() {
 	fmt.Println("time to review some foooorrrrr loops baybee")
@@ -103,19 +105,51 @@ func Day4Loops() {
     fmt.PrintLn("This is an example of a forever loop")
     }
 
+    
+    This is an example of a loop with an attached condition 
+
 
     forx :=25
 
-    for forx > 100 {
+    for forx <= 100 { 
+		forx += 5
     fmt.Println("x is ", forx)
-    forx += 5
     }
+The condition here is that the loop will continue until x is greater than or equal to 100
+    
+
     `)
 
 	forx := 25
 
-	for forx > 100 {
-		fmt.Println("x is ", forx)
+	for forx < 100 {
 		forx += 5
+		fmt.Println("x is ", forx)
+	}
+	Println(`
+    The next example specifies how many times the loop should happen
+
+    for range 3 {
+    fmt.Println("I like cereal")
+    }
+    `)
+	for range 3 {
+		fmt.Println("I like cereal")
+	}
+	Println(`This can also be done while asigning a value if needed: 
+
+    	for count := range 14 {
+		count++
+		fmt.Println(count)
+    `)
+	Println(`
+    There's also the classic for loop that inits a variable, has a condition to keep running and does an action per loop cycle: 
+
+    for i := 22; i < 50; i += 2 {
+    fmt.Print("i is:", x)
+    }
+    `)
+	for i := 22; i < 50; i += 2 {
+		fmt.Print(" i is: ", i, ",")
 	}
 }

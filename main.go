@@ -6,6 +6,7 @@ import (
 	"GoLang-Learning/loops"
 	"GoLang-Learning/review"
 	specific "GoLang-Learning/specificTypes"
+	test "GoLang-Learning/testing"
 	typechanged "GoLang-Learning/typeChanging"
 	"GoLang-Learning/variables"
 	"fmt"
@@ -28,5 +29,6 @@ func main() {
 	specific.Specifictypes()
 	typechanged.NumConverts()
 	typechanged.StringConverts()
+	test.RunTest()
 	review.Review()
 }

@@ -10,4 +10,6 @@ func Review() {
 	Day2()
 	Day3()
 	Day4Loops()
+	Day4TypeChanging()
+	Day5ArraysSlices()
 }
