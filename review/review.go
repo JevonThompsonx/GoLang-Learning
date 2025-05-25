@@ -11,5 +11,8 @@ func Review() {
 	Day3()
 	Day4Loops()
 	Day4TypeChanging()
+	Day5()
+	Day5evenOdd()
+	Day5P2()
 	Day5ArraysSlices()
 }
