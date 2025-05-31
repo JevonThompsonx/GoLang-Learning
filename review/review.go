@@ -15,4 +15,5 @@ func Review() {
 	Day5evenOdd()
 	Day5P2()
 	Day5ArraysSlices()
+	Day6()
 }
