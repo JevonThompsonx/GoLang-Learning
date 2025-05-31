@@ -150,6 +150,9 @@ func add(x , y int8) int8 {
 	return result
 }
 
-    The 
+    The {{int8}} at the end indicates what I expect to be returned
     `)
+	fmt.Println(`
+    Let's test add with 2 + 5 
+    fmt.Println(add(2,5)) = `, add(2, 5))
 }
