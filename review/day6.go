@@ -110,4 +110,46 @@ func Day6() {
 	fmt.Println(`
     Type of newInt
     `, reflect.TypeOf(newInt))
+
+	fmt.Println(`
+    ## functions 
+
+    I've already used them a bit but the basic syntax is: 
+
+    func functionName() {
+      function 
+        action
+          here
+    }
+    `)
+}
+
+func add(x int8, y int8) int8 {
+	result := x + y
+	return result
+}
+
+func add2(x, y int8) int8 {
+	result := x + y
+	return result
+}
+
+func Day6P2() {
+	fmt.Println(`
+    Back to functions. Let's use this function
+
+func add(x int8, y int8) int8 {
+	result := x + y
+	return result
+}
+
+    To do some simple addition. It works by taking values as x and y 
+      It expects x and y to be int8 - this can be rewritten to: 
+func add(x , y int8) int8 {
+	result := x + y
+	return result
+}
+
+    The 
+    `)
 }
