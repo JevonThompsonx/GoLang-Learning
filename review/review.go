@@ -18,4 +18,5 @@ func Review() {
 	Day6()
 	Day6P2()
 	Day6Loops()
+	Day7Quick()
 }
