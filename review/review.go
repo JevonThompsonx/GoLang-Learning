@@ -17,4 +17,5 @@ func Review() {
 	Day5ArraysSlices()
 	Day6()
 	Day6P2()
+	Day6Loops()
 }

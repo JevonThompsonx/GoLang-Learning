@@ -155,4 +155,135 @@ func add(x , y int8) int8 {
 	fmt.Println(`
     Let's test add with 2 + 5 
     fmt.Println(add(2,5)) = `, add(2, 5))
+
+	fmt.Println(`
+    also the same is the add2 function:
+    add2(9,6)
+    `, add2(9, 6))
+	fmt.Println(`
+    And that is functions! 
+
+    Now we can move on toooo...
+
+
+    ## Arrays 
+
+    Arrays in go syntax: 
+
+    var variableName = [numberOfValues]type(v,a,lu,es)
+    `)
+	arrayInt := [6]uint8{3, 8, 2, 5, 86, 3}
+	fmt.Println(`
+	arrayInt := [6]uint8{3, 8, 2, 5, 86, 3}
+    `)
+	fmt.Println(arrayInt)
+	fmt.Println(`Type of arrayInt: `, reflect.TypeOf(arrayInt))
+
+	fmt.Println(`
+    ### assuming array size
+
+    Arrays are generally explicitly defined with an amount of values but this can also be guessed rather than needed to be spelled out. Makes for more succint code 
+
+    eg: 
+
+    arrayAssumption := [...]int16{276, 214, 1000}
+
+    The compiler will figure out that there are three values 
+    `)
+
+	fmt.Println(`
+    ## Bundling
+
+    There are a few rules to bundling files: 
+    - files must have same package name at top of file 
+    - file must be in same dir 
+
+    ### Sharing variables/functions 
+    - function/variable must begin with capital letter
+    - function/varibale must be called as an attachment of the host package
+
+    hello/hello.go 
+
+  "package hello
+
+    Hellovar := "hello"
+    "
+
+    main.go 
+    "package main 
+
+    import ("fmt", GoLang-Learning/hello)
+
+    fmt.Println(hello.Hellovar)
+    "
+
+    Files within the same package, do not need to specify the package they are using to share variables
+    hello.go 
+    "package main
+
+    Hellovar := "hello"
+    "
+
+    main.go 
+    "package main 
+
+    import "fmt"
+
+    fmt.Println(Hellovar)
+    "
+    `)
+}
+
+func Day6Loops() {
+	fmt.Println(`
+
+    Loop time baybeee 
+
+    ## Loops 
+
+
+    In go, loops are done with the "for" keyword
+
+    This keyword can be manipulated to do different loops 
+
+    ### infinite loop 
+    
+    for {
+    fmt.Println("I'll go on forever")
+    }
+
+
+    ### conditional loop 
+
+    x := 20 
+    for x >= 1 {
+    fmt.Println(x)
+    x -= 1 
+    }
+
+
+    ### classic loop 
+    variable init ; variable condition ; loop action {} 
+
+    for i := 2; i < 100; i += 9 {
+      fmt.Print('omg I'm equal to:',i)
+    }
+
+    ### range loops
+
+    Whenever a loop needs to go over all the values of an array or collection of some kind, a range loop is best 
+
+    syntax and eg: 
+    
+    arrayEx := [...]string{"hello", "little", "bird"}
+    for index, value := range arrayEx {
+      fmt.Println("The value at index", index, "is:", value)
+    } 
+
+    ### using break & continue 
+
+    For loops, break and continue will often be needed for when to take action 
+
+    eg: 
+    `)
 }
